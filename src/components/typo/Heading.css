@@ -1,0 +1,15 @@
+.heading-text {
+  @apply mb-2 font-bold text-zinc-800 uppercase pb-4;
+  position: relative;
+  display: inline-block;
+}
+.heading-text::after {
+  @apply rounded-full bg-secondary/50;
+  content: '';
+  min-width: 60px;
+  min-height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}

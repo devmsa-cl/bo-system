@@ -1,0 +1,7 @@
+.section-wrapper {
+  transform: skewY(-7deg);
+}
+.section-wrapper .section-content {
+  transform: skewY(7deg);
+  padding: 80px 0;
+}

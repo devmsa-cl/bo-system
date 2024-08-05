@@ -1,0 +1,15 @@
+.menu-collapse {
+  @apply flex flex-col gap-1;
+}
+.menu-collapse div {
+  @apply min-h-[3px] min-w-[24px] bg-secondary;
+  border-radius: 4px;
+  position: relative;
+}
+
+.menu-collapse div:first-child {
+  right: -10px;
+}
+.menu-collapse div:nth-child(2) {
+  right: -5px;
+}

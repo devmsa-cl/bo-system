@@ -1,0 +1,14 @@
+.product-price .original-price {
+  position: relative;
+}
+.product-price .original-price:before {
+  content: '';
+  min-width: 2px;
+  min-height: 40px;
+  background-color: red;
+  position: absolute;
+  transform: rotate(45deg);
+  transform-origin: bottom;
+  left: 10px;
+  top: -10px;
+}
