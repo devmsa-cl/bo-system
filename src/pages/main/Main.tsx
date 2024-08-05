@@ -123,7 +123,7 @@ export default function Main() {
 
         <div className="product-contains flex flex-col gap-8 my-14">
           <Product
-            product="AC Tune Up"
+            product="AC tune up"
             price={189}
             discountPercent={30}
             description="Including safety check, free water inspection, heater inspection."
